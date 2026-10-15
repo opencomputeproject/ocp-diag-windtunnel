@@ -1,0 +1,6 @@
+fastapi==0.115.6
+uvicorn[standard]==0.34.0
+httpx==0.28.1
+markdown==3.7
+xhtml2pdf==0.2.16
+python-pptx==1.0.2
