@@ -1,0 +1,185 @@
+{
+  "spdxVersion": "SPDX-2.3",
+  "dataLicense": "CC0-1.0",
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "name": "ocp-windtunnel-sbom",
+  "documentNamespace": "http://spdx.org/spdxdocs/ocp-windtunnel-sbom-20261015053425",
+  "creationInfo": {
+    "created": "2026-10-15T05:34:25Z",
+    "creators": [
+      "Tool: custom-python-sbom-generator-2.0"
+    ]
+  },
+  "packages": [
+    {
+      "name": "fastapi",
+      "versionInfo": "0.115.6",
+      "downloadLocation": "https://files.pythonhosted.org/packages/52/b3/7e4df40e585df024fac2f80d1a2d579c854ac37109675db2b0cc22c0bb9e/fastapi-0.115.6-py3-none-any.whl",
+      "licenseDeclared": "MIT License",
+      "licenseConcluded": "MIT License",
+      "supplier": "NOASSERTION",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "e9240b29e36fa8f4bb7290316988e90c381e5092e0cbe84e7818cc3713bcf305"
+        }
+      ],
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:pypi/fastapi@0.115.6"
+        }
+      ],
+      "SPDXID": "SPDXRef-Package-fastapi",
+      "sourceInfo": "Found in: h100c/chat/requirements.txt"
+    },
+    {
+      "name": "httpx",
+      "versionInfo": "0.28.1",
+      "downloadLocation": "https://files.pythonhosted.org/packages/2a/39/e50c7c3a983047577ee07d2a9e53faf5a69493943ec3f6a384bdc792deb2/httpx-0.28.1-py3-none-any.whl",
+      "licenseDeclared": "BSD License",
+      "licenseConcluded": "BSD License",
+      "supplier": "NOASSERTION",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "d909fcccc110f8c7faf814ca82a9a4d816bc5a6dbfea25d6591d6985b8ba59ad"
+        }
+      ],
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:pypi/httpx@0.28.1"
+        }
+      ],
+      "SPDXID": "SPDXRef-Package-httpx",
+      "sourceInfo": "Found in: h100c/chat/requirements.txt"
+    },
+    {
+      "name": "Markdown",
+      "versionInfo": "3.7",
+      "downloadLocation": "https://files.pythonhosted.org/packages/3f/08/83871f3c50fc983b88547c196d11cf8c3340e37c32d2e9d6152abe2c61f7/Markdown-3.7-py3-none-any.whl",
+      "licenseDeclared": "BSD License",
+      "licenseConcluded": "BSD License",
+      "supplier": "Person: Manfred Stienstra, Yuri Takhteyev",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "7eb6df5690b81a1d7942992c97fad2938e956e79df20cbc6186e9c3a77b1c803"
+        }
+      ],
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:pypi/markdown@3.7"
+        }
+      ],
+      "SPDXID": "SPDXRef-Package-Markdown",
+      "sourceInfo": "Found in: h100c/chat/requirements.txt"
+    },
+    {
+      "name": "python-pptx",
+      "versionInfo": "1.0.2",
+      "downloadLocation": "https://files.pythonhosted.org/packages/d9/4f/00be2196329ebbff56ce564aa94efb0fbc828d00de250b1980de1a34ab49/python_pptx-1.0.2-py3-none-any.whl",
+      "licenseDeclared": "MIT License",
+      "licenseConcluded": "MIT License",
+      "supplier": "NOASSERTION",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "160838e0b8565a8b1f67947675886e9fea18aa5e795db7ae531606d68e785cba"
+        }
+      ],
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:pypi/python-pptx@1.0.2"
+        }
+      ],
+      "SPDXID": "SPDXRef-Package-python-pptx",
+      "sourceInfo": "Found in: h100c/chat/requirements.txt"
+    },
+    {
+      "name": "uvicorn",
+      "versionInfo": "0.34.0",
+      "downloadLocation": "https://files.pythonhosted.org/packages/61/14/33a3a1352cfa71812a3a21e8c9bfb83f60b0011f5e36f2b1399d51928209/uvicorn-0.34.0-py3-none-any.whl",
+      "licenseDeclared": "BSD License",
+      "licenseConcluded": "BSD License",
+      "supplier": "NOASSERTION",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "023dc038422502fa28a09c7a30bf2b6991512da7dcdb8fd35fe57cfc154126f4"
+        }
+      ],
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:pypi/uvicorn@0.34.0"
+        }
+      ],
+      "SPDXID": "SPDXRef-Package-uvicorn",
+      "sourceInfo": "Found in: h100c/chat/requirements.txt"
+    },
+    {
+      "name": "xhtml2pdf",
+      "versionInfo": "0.2.16",
+      "downloadLocation": "https://files.pythonhosted.org/packages/20/37/d9be93dbfee057b141cb69f5cad2029ba76e3645cdfffd6d5a3044a838a2/xhtml2pdf-0.2.16-py3-none-any.whl",
+      "licenseDeclared": "Apache Software License",
+      "licenseConcluded": "Apache Software License",
+      "supplier": "NOASSERTION",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "b37040127627aee42f76f25ebbd5798308ffc93edaf4850a4d3dd894160ebb53"
+        }
+      ],
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:pypi/xhtml2pdf@0.2.16"
+        }
+      ],
+      "SPDXID": "SPDXRef-Package-xhtml2pdf",
+      "sourceInfo": "Found in: h100c/chat/requirements.txt"
+    }
+  ],
+  "relationships": [
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relationshipType": "DESCRIBES",
+      "relatedSpdxElement": "SPDXRef-Package-fastapi"
+    },
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relationshipType": "DESCRIBES",
+      "relatedSpdxElement": "SPDXRef-Package-httpx"
+    },
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relationshipType": "DESCRIBES",
+      "relatedSpdxElement": "SPDXRef-Package-Markdown"
+    },
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relationshipType": "DESCRIBES",
+      "relatedSpdxElement": "SPDXRef-Package-python-pptx"
+    },
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relationshipType": "DESCRIBES",
+      "relatedSpdxElement": "SPDXRef-Package-uvicorn"
+    },
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relationshipType": "DESCRIBES",
+      "relatedSpdxElement": "SPDXRef-Package-xhtml2pdf"
+    }
+  ]
+}
